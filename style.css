@@ -1,13 +1,13 @@
 
+/******************** Settings section **********************/
+
 * {
-    box-sizing: border-box;
-   
+    box-sizing: border-box; 
 }
 
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 ul {
@@ -18,23 +18,14 @@ ul {
 a {
     text-decoration: none;
     font-size: 15px;
-    
-
-
 }
 
 a:visited { 
-    text-decoration: none; 
-
-    
-    
+    text-decoration: none;  
    }
 
 
-header{
-
-}
-
+/******************** Header section **********************/
 
 
 .starbucks-logo{
@@ -46,8 +37,7 @@ header{
 
 .container {
     max-width: 90%;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 
 .nav-container{
@@ -55,7 +45,6 @@ header{
     align-items: center;
     max-width: 94%;
     margin: 0 auto;
-    
     gap: 24px;
     padding: 19px 0;
 }
@@ -71,24 +60,18 @@ header{
     display: flex;
     margin-left: 10px;
     gap: 24px;
-    
-   
-
-
 }
 
 .primary-nav-right {
     display: flex;
     align-items: center;
     gap: 15px;
-
 }
 
 .nav-item {
     color: black;
     font-size: 14px;
     letter-spacing: 1.5px;
-   
 }
 
 .signin-btn{
@@ -98,7 +81,6 @@ header{
     outline: 1px solid black;
     color: black;
     font-weight: 500;
-
 }
 
 .join-btn {
@@ -106,16 +88,12 @@ header{
     background-color: black;
     color: white;
     border-radius: 18px;
-
 }
 
 .find-store{
     display: flex;
     align-items: center;
     gap: 10px;
-    
-    
-
     margin-right: 20px;
 }
 
@@ -130,7 +108,13 @@ header{
 
 
 
-/* Rewards section */
+
+
+/******************** Rewards section **********************/
+
+
+
+
 
 .rewards-section{
     background-color: #D4E9E2;
@@ -142,9 +126,6 @@ header{
     -webkit-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
     -moz-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
     box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
-
-
-
 }
 
 .rewards-content{
@@ -163,22 +144,27 @@ header{
 }
 
 
-/* Promo section 1 */
 
-.promotion-section-1 {
+
+
+
+/******************** Promotion section **********************/
+
+
+
+
+
+.promotion-section {
     margin-top: 30px;
     background-color: #D4E9E2;
     display: flex;
 
 }
-.promotion-section-1 > * {
+.promotion-section > * {
     flex-basis: 100%;
 }
 
-
-
-
-.promo-img-1{
+.promo-img{
     max-width: 100%;
     height: 100%;
    
@@ -186,7 +172,7 @@ header{
 
 
 
-.promo-text-1{
+.promo-text{
    
     display: flex;
     flex-direction: row;
@@ -196,28 +182,23 @@ header{
     
 }
 
-.promo-content-1{
+.promo-text-content{
     text-align: center;
     width: 70%;
-    
-  
-
-
 }
 
-.promo-text-1 h1{
+.promo-text-header{
     font-size: 50px;
     color: #1e3932;
-    
 }
 
-.promo-text-1 p{
+.promo-text-description{
     font-size: 24px;
     line-height: 40px;
     color: #1e3932;
 }
 
-.promo-content-1 a{
+.promo-text-btn{
     display: inline-block;
     padding: 7px 15px;
     border-radius: 18px;
@@ -227,132 +208,58 @@ header{
     font-weight: 600;
     font-size: 17px;
     margin-top: 5px;
-
-
-
-    
-
 }
 
-
-
-
-
-.promotion-section-2 {
-    margin-top: 30px;
+.promo-secondary-color{
     background-color: #8B323E;
-
-    display: flex;
-
-}
-.promotion-section-2 > * {
-    flex-basis: 100%;
 }
 
-.promo-img-2{
-    max-width: 100%;
-   
+.white-text{
+    color: white;
 }
 
-.promo-content-2{
+.white-border{
+    border: 1px solid white;
+}
+
+
+.participating-stores{
+    padding: 25px 0;;
     text-align: center;
-    width: 70%;
-    padding: 20px 0;
-
 }
-
-.promo-text-2{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.promo-text-2 h1{
-    font-size: 50px;
-    color: white;
-    
-}
-
-.promo-text-2 p{
-    font-size: 24px;
-    line-height: 40px;
-    color: white;
-}
-
-.promo-content-2 a{
-    display: inline-block;
-    padding: 7px 15px;
-    border-radius: 18px;
-    outline: 1px solid white;
-    background-color: transparent;
-    color: white;
-    font-weight: 600;
-    font-size: 17px;
-    margin-top: 5px;
-
-
-
-    
-
-}
-
-
-
 
 
 
 @media only screen and (max-width: 900px) {
+    .nav-container{
+        justify-content: center;
+    }
 
     .rewards-content{
         text-align: center;
     }
 
-
-
-    .promotion-section-1{
+    .promotion-section{
         flex-direction: column;
-       
     }
 
-    .promo-content-1{
-        width: 80%;
-    }
-    .promo-content-2{
-        width: 80%;
-    }
-
-    .promo-text-1{
-       
-    }
-
-    .promo-text-1 p{
-        font-size: 19px;
-        line-height: 30px;
-        
-    }
-
-    .promo-text-1 h1{
-        font-size: 28px;
-
-    }
-    .promo-text-2 p{
-        font-size: 19px;
-        line-height: 30px;
-        
-    }
-
-    .promo-text-2 h1{
-        font-size: 28px;
-
-    }
-
-
-    .promotion-section-2{
+    .promotion-section:last-child{
         flex-direction: column-reverse;
     }
 
+    .promo-text-content{
+        width: 80%;
+    }
+  
+    .promo-text-description{
+        font-size: 19px;
+        line-height: 30px; 
+    }
+
+    .promo-text-header{
+        font-size: 28px;
+    }
+  
     .primary-navigation{
         display: none;
     }
