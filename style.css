@@ -1,0 +1,363 @@
+
+* {
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    
+
+
+}
+
+a:visited { 
+    text-decoration: none; 
+
+    
+    
+   }
+
+
+header{
+
+}
+
+
+
+.starbucks-logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+   
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    max-width: 94%;
+    margin: 0 auto;
+    
+    gap: 24px;
+    padding: 19px 0;
+}
+
+.primary-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.primary-nav-left {
+    display: flex;
+    margin-left: 10px;
+    gap: 24px;
+    
+   
+
+
+}
+
+.primary-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.nav-item {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+   
+}
+
+.signin-btn{
+    padding: 7px 15px;
+    background-color: white;
+    border-radius: 18px;
+    outline: 1px solid black;
+    color: black;
+    font-weight: 500;
+
+}
+
+.join-btn {
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+
+}
+
+.find-store{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+
+    margin-right: 20px;
+}
+
+.find-store a{
+    color: black;
+}
+
+.location-logo{
+    width: 21px;
+    height: 21px;
+}
+
+
+
+/* Rewards section */
+
+.rewards-section{
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    -webkit-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+    -moz-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+    box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+
+
+
+}
+
+.rewards-content{
+    
+}
+
+.rewards-header{
+    font-size: 24px;
+    color: #1e3932;
+}
+
+.rewards-text{
+    color: #1e3932;
+    padding-top: 24px;
+    font-size: 19px;
+}
+
+
+/* Promo section 1 */
+
+.promotion-section-1 {
+    margin-top: 30px;
+    background-color: #D4E9E2;
+    display: flex;
+
+}
+.promotion-section-1 > * {
+    flex-basis: 100%;
+}
+
+
+
+
+.promo-img-1{
+    max-width: 100%;
+    height: 100%;
+   
+}
+
+
+
+.promo-text-1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+
+.promo-content-1{
+    text-align: center;
+    width: 70%;
+    
+  
+
+
+}
+
+.promo-text-1 h1{
+    font-size: 50px;
+    color: #1e3932;
+    
+}
+
+.promo-text-1 p{
+    font-size: 24px;
+    line-height: 40px;
+    color: #1e3932;
+}
+
+.promo-content-1 a{
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 18px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: #1e3932;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 5px;
+
+
+
+    
+
+}
+
+
+
+
+
+.promotion-section-2 {
+    margin-top: 30px;
+    background-color: #8B323E;
+
+    display: flex;
+
+}
+.promotion-section-2 > * {
+    flex-basis: 100%;
+}
+
+.promo-img-2{
+    max-width: 100%;
+   
+}
+
+.promo-content-2{
+    text-align: center;
+    width: 70%;
+    padding: 20px 0;
+
+}
+
+.promo-text-2{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-text-2 h1{
+    font-size: 50px;
+    color: white;
+    
+}
+
+.promo-text-2 p{
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+}
+
+.promo-content-2 a{
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 18px;
+    outline: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 5px;
+
+
+
+    
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .rewards-content{
+        text-align: center;
+    }
+
+
+
+    .promotion-section-1{
+        flex-direction: column;
+       
+    }
+
+    .promo-content-1{
+        width: 80%;
+    }
+    .promo-content-2{
+        width: 80%;
+    }
+
+    .promo-text-1{
+       
+    }
+
+    .promo-text-1 p{
+        font-size: 19px;
+        line-height: 30px;
+        
+    }
+
+    .promo-text-1 h1{
+        font-size: 28px;
+
+    }
+    .promo-text-2 p{
+        font-size: 19px;
+        line-height: 30px;
+        
+    }
+
+    .promo-text-2 h1{
+        font-size: 28px;
+
+    }
+
+
+    .promotion-section-2{
+        flex-direction: column-reverse;
+    }
+
+    .primary-navigation{
+        display: none;
+    }
+  }
+
+
+
+
