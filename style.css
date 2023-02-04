@@ -74,6 +74,10 @@ a:visited {
     letter-spacing: 1.5px;
 }
 
+.nav-item:hover{
+    color: #006241;
+}
+
 .signin-btn{
     padding: 7px 15px;
     background-color: white;
@@ -99,6 +103,10 @@ a:visited {
 
 .find-store a{
     color: black;
+}
+
+.find-store a:hover{
+    color: #006241;
 }
 
 .location-logo{
@@ -230,6 +238,50 @@ a:visited {
 
 
 
+
+
+
+/******************** Secondary navigation section **********************/
+
+
+
+.secondary-navigation-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 30px;
+    
+    -webkit-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+    -moz-box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+    box-shadow: 0px -2px 3px rgba(178, 178, 178, 0.75);
+
+
+}
+
+.responsive-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.arrow{
+    display: none;
+    width: 30px;
+    width: 30px;
+}
+
+
+.sec-nav-item{
+    color: rgba(0,0,0,.58);
+    margin: 30px 0;
+}
+
+.nav-title{
+    font-size: 20px;
+}
+
+
+
 @media only screen and (max-width: 900px) {
     .nav-container{
         justify-content: center;
@@ -262,6 +314,35 @@ a:visited {
   
     .primary-navigation{
         display: none;
+    }
+
+    .secondary-navigation-section{
+        grid-template-columns: 1fr;
+    }
+    
+
+    .arrow{
+        display: block;
+    }
+
+    .au-dropdown{
+        display: none;
+    }
+    .c-dropdown{
+        display: none;
+    }
+    .si-dropdown{
+        display: none;
+    }
+    .bp-dropdown{
+        display: none;
+    }
+    .op-dropdown{
+        display: none;
+    }
+
+    .open {
+        display: block;
     }
   }
 
