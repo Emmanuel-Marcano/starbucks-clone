@@ -12,71 +12,72 @@ arrows.forEach(function(arrow){
         if(arrow.parentElement.nextElementSibling.classList.contains("op-dropdown")){
 
             if(arrow.parentElement.parentElement.classList.contains("open")){
-                arrow.src = "images/down-arrow.png"
-                // au_dropdown.classList.toggle("open")
+                arrow.classList.toggle("rotate-arrow")
+                
                 arrow.parentElement.parentElement.classList.toggle("open")
             }
 
             else {
-                // au_dropdown.classList.toggle("open")
+              
                 arrow.parentElement.parentElement.classList.toggle("open")
-                arrow.src = "images/swipe-up.png"
+                arrow.classList.toggle("rotate-arrow")
             }
         }
         else if(arrow.parentElement.nextElementSibling.classList.contains("bp-dropdown")){
             
             if(arrow.parentElement.parentElement.classList.contains("open")){
-                arrow.src = "images/down-arrow.png"
-                // au_dropdown.classList.toggle("open")
+                arrow.classList.toggle("rotate-arrow")
+              
                 arrow.parentElement.parentElement.classList.toggle("open")
             }
 
             else {
-                // au_dropdown.classList.toggle("open")
+               
                 arrow.parentElement.parentElement.classList.toggle("open")
-                arrow.src = "images/swipe-up.png"
+                arrow.classList.toggle("rotate-arrow")
             }
         } 
         else if(arrow.parentElement.nextElementSibling.classList.contains("si-dropdown")){
             
             if(arrow.parentElement.parentElement.classList.contains("open")){
-                arrow.src = "images/down-arrow.png"
-                // au_dropdown.classList.toggle("open")
+                arrow.classList.toggle("rotate-arrow")
+              
                 arrow.parentElement.parentElement.classList.toggle("open")
             }
 
             else {
-                // au_dropdown.classList.toggle("open")
+               
                 arrow.parentElement.parentElement.classList.toggle("open")
-                arrow.src = "images/swipe-up.png"
+                arrow.classList.toggle("rotate-arrow")
             }
         }
         else if(arrow.parentElement.nextElementSibling.classList.contains("c-dropdown")){
             
             if(arrow.parentElement.parentElement.classList.contains("open")){
-                arrow.src = "images/down-arrow.png"
-                // au_dropdown.classList.toggle("open")
+                arrow.classList.toggle("rotate-arrow")
+               
                 arrow.parentElement.parentElement.classList.toggle("open")
             }
 
             else {
-                // au_dropdown.classList.toggle("open")
+              
                 arrow.parentElement.parentElement.classList.toggle("open")
-                arrow.src = "images/swipe-up.png"
+                arrow.classList.toggle("rotate-arrow")
             }
         }
         else if(arrow.parentElement.nextElementSibling.classList.contains("au-dropdown")){
             
             if(arrow.parentElement.parentElement.classList.contains("open")){
-                arrow.src = "images/down-arrow.png"
-                // au_dropdown.classList.toggle("open")
+                arrow.classList.toggle("rotate-arrow")
+               
                 arrow.parentElement.parentElement.classList.toggle("open")
             }
 
             else {
-                // au_dropdown.classList.toggle("open")
+               
                 arrow.parentElement.parentElement.classList.toggle("open")
-                arrow.src = "images/swipe-up.png"
+                
+                arrow.classList.toggle("rotate-arrow")
             }
         }
     })
